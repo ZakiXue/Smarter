@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/item_ll"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/colorwhite"
+              android:orientation="vertical"
+              android:paddingRight="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:paddingLeft="10.8dp"
+        >
+
+        <ImageView
+            android:id="@+id/journal_iv_circle"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="2dp"
+            android:src="@drawable/circle"
+            />
+
+        <TextView
+            android:id="@+id/journal_tv_date"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="4dp"
+            android:paddingTop="1dp"
+            android:text="2019年02月27日"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="23.3dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/linear_style"
+            >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/journal_item_ll_control"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:id="@+id/journal_ll_title"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/journal_tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="3dp"
+                    android:text="今天是个开心的日子"
+                    android:textColor="#000"
+                    android:textSize="19sp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/journal_tv_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="33dp"
+                android:paddingRight="15dp"
+                android:paddingTop="2dp"
+                android:text="  今天，妈妈带我去了菜市场。菜市场里的人真多啊!有卖东西的，也有买东西的。
+　　菜市场里人山人海，热闹非凡。有卖鱼的，卖鸡的，还有卖蔬菜的。更多的是来买东西的。有的人在吆喝，有的人在讨价还价。
+　　菜市场里的小摊占住了不少位置。"
+                android:textColor="#000"
+                android:textSize="16sp"
+                />
+
+            <RelativeLayout
+                android:id="@+id/journal_rl_edit"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#ffffff"
+                android:paddingRight="5dp"
+                >
+                <cc.trity.floatingactionbutton.FloatingActionsMenu
+                    android:id="@+id/journal_edit_labels"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    app:fab_addButtonSize="mini"
+                    app:fab_colorNormal="#f0f01a"
+                    app:fab_expandDirection="left"
+                    app:fab_icon="@drawable/menu"
+                    >
+
+                    <cc.trity.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/edit_fab_delete"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        app:fab_size="mini"
+                        app:fab_icon = "@drawable/delete_new"
+                        app:fab_colorNormal="#ee0d18"
+                        />
+                    <cc.trity.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/edit_fab_edit"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/edit"
+                        app:fab_size="mini"
+                        app:fab_title="FAB 2"
+                        app:fab_icon = "@drawable/edit"
+                        app:fab_colorNormal="#40a30a"
+
+                        />
+                </cc.trity.floatingactionbutton.FloatingActionsMenu>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#ffffff">
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

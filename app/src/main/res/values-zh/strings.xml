@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">智能管家</string>
+    <string name="skip">跳过</string>
+    <string name="intelligent">智能</string>
+    <string name="strong">强大</string>
+    <string name="convenient">便捷</string>
+    <string name="enter">进入主页</string>
+    <string name="news">新闻</string>
+    <string name="weather">天气预报</string>
+    <string name="journal">小维日记</string>
+    <string name="discover">发现美食</string>
+    <string name="error">网络不给力！</string>
+</resources>

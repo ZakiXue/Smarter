@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Smarter</string>
+    <string name="skip">skip</string>
+    <string name="intelligent">intelligent</string>
+    <string name="strong">strong</string>
+    <string name="convenient">convenient</string>
+    <string name="enter">enter</string>
+    <string name="news">News</string>
+    <string name="weather">Weather</string>
+    <string name="journal">Journal</string>
+    <string name="discover">Discover food</string>
+    <string name="error">Network Error</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/discover_item_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="酸菜鱼"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/discover_item_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="5"
+                    android:text="        酸菜鱼属四川菜系，以鲜草鱼为主料，配以四川泡菜煮制而成。 此菜虽为四川民间家常菜，但流传甚广。成菜 鱼片鲜嫩爽滑，汤 酸香鲜美，微辣不腻；。 酸菜鱼流行于90年
+                代初，经久不衰，在大大小小的餐馆都有其一席之地，重庆的厨师们又把它推向祖国的大江南北，酸菜鱼是重庆菜的开始先锋之一。 酸菜鱼的主材鱼含丰富优质蛋白，人体消化吸收率可达96%，并能供给人体必需的氨基酸、矿物质、维生素A和维生素D；鱼的脂肪多为不饱和脂肪酸，能很好的降低胆固醇，可以防治动脉硬化、冠心病，因此，多吃鱼可以健康长寿。 酸菜中的乳酸能开胃提
+                神、醒酒去腻，还能能增进食欲、帮助消化，还可以促进人体对铁元素的吸收。"
+                    android:textColor="#969696"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+                <TextView
+                    android:id="@+id/discover_item_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="川菜;家常菜;鲜嫩;秋季养生;四川酸菜;贴秋膘;xiann;酸香味美"
+                    android:textColor="#969696"
+                    android:textSize="14sp"/>
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/discover_item_img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="5dp"
+            android:background="#fff"
+            android:padding="1dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/delete"/>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

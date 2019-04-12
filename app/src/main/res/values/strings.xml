@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Smarter</string>
+    <string name="skip">skip</string>
+    <string name="intelligent">intelligent</string>
+    <string name="strong">strong</string>
+    <string name="convenient">convenient</string>
+    <string name="enter">enter</string>
+    <string name="news">News</string>
+    <string name="weather">weather</string>
+    <string name="journal">Journal</string>
+    <string name="discover">discover</string>
+    <string name="error">error</string>
+    <string name="login">登录</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="go">确认</string>
+    <string name="register">注册</string>
+    <string name="repeat_password">重复密码</string>
+    <string name="email">邮箱</string>
+    <string name="next">下一步</string>
+</resources>
